@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/poppins-v22-latin-regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/poppins-v22-latin-500.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/poppins-v22-latin-600.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/poppins-v22-latin-700.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/dm-sans-v15-latin-regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/dm-sans-v15-latin-500.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/dm-sans-v15-latin-700.woff2) format("woff2");
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-[1193px] px-5;
+  }
+}
