@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       poppins: ["Poppins", "system-ui"],
+      dmSans: ["Dm Sans", "Poppins"],
     },
   },
   plugins: [],
